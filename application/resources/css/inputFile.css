@@ -1,0 +1,63 @@
+ 
+.inputModificado {
+    margin: 10px 0px 10px 50px;
+    clear: both;
+}
+ 
+.inputImagen {
+    background: #ffcc99;
+    opacity: 0.5;
+    box-shadow: 0px 0px 5px black, inset 0 0px 5px 2px black;
+    padding: 5px;
+    border-radius: 4px;
+    color: #000;
+    font-weight: bold;
+    float: left;
+    margin-top:  -2px;
+	display: none;
+}
+ .botonInputFileModificado {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #da4f49;
+  *background-color: #bd362f;
+  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ee5f5b), to(#bd362f));
+  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
+  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+  background-repeat: repeat-x;
+  border-color: #bd362f #bd362f #802420;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffee5f5b', endColorstr='#ffbd362f', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.botonInputFileModificado {
+    position: relative;
+    border-radius: 5px;
+    background-color: #fff;
+    //color: #000;
+    padding: 5px;
+    //box-shadow: inset 0 0px 8px 2px black;
+    width: 150px;
+    margin: auto;
+}
+ 
+.botonInputFileModificado:hover {  
+    //border: 1px solid #fff;  
+    box-sizing: border-box;
+    box-shadow: inset 0 0px 8px 2px red;
+    color: #fff;
+}
+ 
+.botonInputFileModificado .inputImagenOculto {
+    opacity: 0;
+    position: absolute;
+    margin-left: -125px;
+    width: 225px;
+}
+ 
+.botonInputFileModificado .boton {
+    text-align: center;
+}
