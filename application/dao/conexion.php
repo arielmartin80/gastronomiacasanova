@@ -3,9 +3,9 @@
 //PROD/*
 
 define('HOST','localhost'); 
-define('USER','id10928939_admin');
-define('PASS','mleira80');
-define('DBNAME','id10928939_databasegc');
+define('USER','');
+define('PASS','');
+define('DBNAME','');
 
 //DEV
 /*
